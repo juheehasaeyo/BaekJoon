@@ -9,7 +9,7 @@ public class Main{
         for (int i=0; i<8; i++) {
             String str = s.nextLine();
             for (int j=0; j<8; j++) {
-                if (str.charAt(j) == 'F' && (i+j)%2 == 0) {
+                if (str.charAt(j) == 'F' && (i+j) % 2 == 0) {
                 	count++;
                 }
             }
