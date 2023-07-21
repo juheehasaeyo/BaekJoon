@@ -7,7 +7,7 @@ public class Main{
         //a~z까지 26개의 알파벳
         int [] arr = new int[26];
         for(int i=0; i<arr.length; i++) {
-        	//arr배열의 모든 값을 -1로 초기와
+        	//arr배열의 모든 값을 -1로 초기화
         	arr[i] = -1;
         }
         String str = s.next();
