@@ -19,9 +19,9 @@ public class Main{
 			if(alpha[i] > max) {
 				max = alpha[i];
 				ch = (char)(i+'A');
-        	} else if(alpha[i] == max) {
-        		ch = '?';
-        	}
+        			} else if(alpha[i] == max) {
+        				ch = '?';
+        			}
 		}
 		System.out.println(ch);
 	}	
