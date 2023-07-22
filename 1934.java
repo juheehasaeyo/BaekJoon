@@ -12,7 +12,7 @@ public class Main{
        int result1 = gcd(A,B); //최대공약수
        System.out.println(A*B / result1); //최소공배수
        }
-	}
+}
 	public static int gcd(int A, int B) {
 		// TODO Auto-generated method stub
 		while(B != 0) {
