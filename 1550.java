@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+//1550
+//16진수 수를 입력받아서 10진수로 출력하는 프로그램
 public class Main{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
