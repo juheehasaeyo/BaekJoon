@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 //2309
+//백설공주와 일곱난쟁이
 public class Main{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
@@ -26,12 +27,12 @@ public class Main{
                     			break;          		
             			}
             		}
-	}
+		}
 		Arrays.sort(arr);
-        		for(int i=0; i<9; i++) {
-        			if(arr[i] != 0) {
-        				System.out.println(arr[i]);
-        			}
+        	for(int i=0; i<9; i++) {
+        		if(arr[i] != 0) {
+        			System.out.println(arr[i]);
         		}
+        	}
 	}
 }
