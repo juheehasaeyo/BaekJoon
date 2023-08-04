@@ -14,11 +14,11 @@ public class Test {
         }
         System.out.println(ans);
    	}
-		long sum(int[] a) {
-			long ans = 0;
-			for(int list: a) {
-				ans += list;
-			}
-			return ans;
-		}      
+	long sum(int[] a) {
+	long ans = 0;
+	for(int list: a) {
+		ans += list;
+	}
+	return ans;
+	}      
 }
