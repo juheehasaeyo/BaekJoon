@@ -18,7 +18,7 @@ public class Main {
        for(int i=0; i<n; i++) {
     	   arr[i] = arr[i]/m*100;
 		   sum += arr[i];
-	   }
+       }
        double avg = sum/n;
        System.out.println(avg);
     }
