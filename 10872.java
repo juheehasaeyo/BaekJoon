@@ -8,7 +8,7 @@ public class Main {
        
        fac[0] = 1;
        for(int i=1; i<fac.length; i++) {
-          fac[i] = i*fac[i-1];
+            fac[i] = i*fac[i-1];
        }
        System.out.println(fac[N]);      
     }
