@@ -17,8 +17,8 @@ public class Main{
         	 XX = N/H;
          }
          else {
-			YY = N%H;
-			XX = N/H + 1;
+		YY = N%H;
+		XX = N/H + 1;
          }
          if(XX<10) {
         	 System.out.println(YY+"0"+XX);
