@@ -17,10 +17,10 @@ public class Main {
     		}
     		else {
     			System.out.println("Scalene");
-			}    		
+		}    		
     	}
     	else {
     		System.out.println("Error");
-		}
-   }
+	}
+    }
 }
