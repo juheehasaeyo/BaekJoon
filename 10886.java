@@ -15,12 +15,12 @@ public class Main {
         		count1++;
         	} else if (cute == 1) {
 		count2++;
-	}
+		}
         }
         if(count1 > count2) {
     		System.out.println("Junhee is not cute!");
     	} else {
     		System.out.println("Junhee is cute!");
-		}
 	}
+    }
 }
