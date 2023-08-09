@@ -10,12 +10,11 @@ public class Main {
     	int [] arr = new int[num.length];
     	
     	for (int i=0; i<num.length; i++) {
-			arr[i] = Integer.parseInt(num[i]);
-		}
-    	Arrays.sort(arr);
-		
-		for (int i=arr.length-1; i>=0; i--) {
-			System.out.print(arr[i]);
-		}
+		arr[i] = Integer.parseInt(num[i]);
+	}
+    	Arrays.sort(arr);		
+	for (int i=arr.length-1; i>=0; i--) {
+		System.out.print(arr[i]);
+	}
     }
 }
