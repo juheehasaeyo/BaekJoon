@@ -22,8 +22,8 @@ public class Main {
                 System.out.print("*");
             }
             if (i != 0) {
-				System.out.println();
-			}
+		System.out.println();
+	    }
         }
     }
 }
