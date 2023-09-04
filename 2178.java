@@ -31,8 +31,9 @@ public class Main {
         //시작 위치 방문처리 하기
         visited[1][1] = 1;
         q.add(new Pair(1, 1));
-
-        while (!q.isEmpty()) { //문자열이 빈 값이면 true
+        
+        //bfs 하기
+        while (!q.isEmpty()) { //큐가 비어있지 않으면 true, 비어있으면 false
             Pair pi = q.poll();
             int y = pi.y;
             int x = pi.x;
@@ -44,7 +45,7 @@ public class Main {
                 if (ny < 1 || ny > n || nx < 1 || nx > m) continue;
                 if (adj[ny][nx] == 0) continue;
                 if (visited[ny][nx] >= 1) continue;
-                //bfs 하기
+                
                 visited[ny][nx] = visited[y][x] + 1;
                 q.add(new Pair(ny, nx));
             }
