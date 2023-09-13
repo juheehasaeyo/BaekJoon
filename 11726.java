@@ -1,4 +1,3 @@
-import java.math.BigInteger;
 import java.util.Scanner;
 //11726
 public class Main {
