@@ -6,7 +6,7 @@ public class Main{
 		
 		int n = sc.nextInt();
 		int [] arr = new int[104];
-    int result = 0;
+		int result = 0;
 		arr[3] = 0;
 		for(int i=4; i<=n; i++) {
 			result = n*(n-1)*(n-2)*(n-3) / 24;
