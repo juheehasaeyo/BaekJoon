@@ -5,13 +5,13 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		while(true) {
-			int A = sc.nextInt();
-			int B = sc.nextInt();
-			if(A==0 && B==0) {
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			if(a==0 && b==0) {
 				break;
 			}
 			//단순 규칙 찾기
-			System.out.println(A-(B-A));
+			System.out.println(a-(b-a));
 		}
 	}
 }
