@@ -15,7 +15,7 @@ public class Main {
             int max = score[n-1];
             int min = score[0];
             int sub = Integer.MIN_VALUE;
-            //가장 큰 인접한 점수 차이
+            // 가장 큰 인접한 점수 차이
             for(int r=0; r<n-1; r++) {
                 sub = Math.max(sub, score[r+1] - score[r]);
             }
