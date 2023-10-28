@@ -20,7 +20,7 @@ class Main {
         for(int i=num; i<n-num; i++) {
             sum += arr[i];
         }
-        int avg = (int)Math.round(sum / (n - num * 2));
+        long avg = Math.round(sum / (n - num * 2));
         System.out.println(avg);
     }
 }
