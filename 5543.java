@@ -1,18 +1,24 @@
 import java.util.Scanner;
 // 5543 상근날드
-public class Main {
-
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int b1 = sc.nextInt();
-        int b2 = sc.nextInt();
-        int b3 = sc.nextInt();
-        int cola = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int coke = sc.nextInt();
         int cider = sc.nextInt();
-
-        int burger = Math.min(b1, (Math.min(b2, b3)));
-        int drink = Math.min(cola, cider);
-        System.out.println(burger + drink - 50);
-
+        int res1 = 0, res2 = 0;
+        if(coke < cider) {
+            res1 = coke;
+        } else res1 = cider;
+        if (a <= b && a <= c) {
+            res2 = a;
+        } else if (b <= a && b <= c) {
+            res2 = b;
+        } else {
+            res2 = c;
+        }
+        System.out.println(res1 + res2 - 50);
     }
 }
