@@ -41,7 +41,7 @@ public class Main {
         }
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
-            b[i] = Integer.parseInt(st2.nextToken());
+            b[i] = Integer.parseInt(st.nextToken());
         }
         // Arrays.sort() 메서드로 배열 A, B를 오름차순 정렬하면
         Arrays.sort(a);
