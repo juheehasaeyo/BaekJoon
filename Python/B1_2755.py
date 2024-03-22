@@ -1,3 +1,4 @@
+# 2755 이번학기 평점은 몇점?
 t = int(input())
 sum = 0
 total_grade = 0
